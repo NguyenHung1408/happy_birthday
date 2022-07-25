@@ -1,0 +1,452 @@
+
+<html lang="vi"
+    __fvdsurfcanyoninserted="1"
+    class="
+        clickberry-extension
+        clickberry-extension-standalone
+        clickberry-extension
+        clickberry-extension-standalone
+        clickberry-extension
+        clickberry-extension-standalone
+    "
+>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="shortcut icon" type="image/png" href="./birthdayCake.png"/>
+        <title>Happy Birthday</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+        <script>
+            window.open = function () {};
+            window.print = function () {};
+            // Support hover state for mobile.
+            if (false) {
+                window.ontouchstart = function () {};
+            }
+        </script>
+        <script
+            type="text/javascript"
+            src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"
+        ></script>
+        <meta content="clickberry-extension-here" />
+    </head>
+
+    <body>
+        <link
+            href="https://fonts.googleapis.com/css?family=Wendy+One"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <div class="pyro">
+            <div class="before">
+                
+            </div>
+            <div class="after">
+
+            </div>
+            <div class="container">
+                <!-- 2. Dòng chữ Happy Birthday
+                Nếu bạn muốn thêm chữ vào thì phải thay đổi css tương ứng cho nó -->
+                <div class="balloon">
+                    <div><span>H</span></div>
+                    <div><span>A</span></div>
+                    <div><span>P</span></div>
+                    <div><span>P</span></div>
+                    <div><span>Y</span></div>
+                    <div><span>B</span></div>
+                    <div><span>I</span></div>
+                    <div><span>R</span></div>
+                    <div><span>T</span></div>
+                    <div><span>H</span></div>
+                    <div><span>D</span></div>
+                    <div><span>A</span></div>
+                    <div><span>Y</span></div>
+                </div>
+                <div class="avatar">
+                    <!-- 3. Avatar của người bạn muốn gởi lời chúc -->
+                    <img src="./img-phuonganh.jpg" alt="" class="avatar__img " onclick="showMessage()" />
+                    <!-- 4. Tên của người đó -->
+                    <h1 onclick="showMessage()" class="avatar__title ">Phuong Anh</h1>
+                    
+                </div>
+                
+                <!-- 5. Phần nhạc 
+                <audio id="player" controls autoplay loop   >
+                    <source src="./music.mp3" type="audio/mpeg">
+                    <source src="./music.ogg" type="audio/ogg">
+                </audio> -->
+            </div>
+        </div>
+        <script>
+            if (document.location.search.match(/type=embed/gi)) {
+                window.parent.postMessage("resize", "*");
+            }
+            function showMessage() {
+                // 6. Lời nhắn hiện ra khi bấm vào tên hoặc avatar
+                swal({
+                    title: "Happy Birthday", // Tiêu đề của popup
+                    text: " Chúc cậu sinh nhật đầy ắp yêu thương và tiếng cười, thêm tuổi, thêm hạnh phúc, thêm nhiều niềm vui nhé! ", // Nội dung lời nhắn
+                    button: {
+                        text: "❤️️",
+                    },
+                });      
+            }
+              
+        </script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!--phần hình ảnh-->
+    
+    <div class="anh">
+      <div class="slid-er">
+        <div class="slides" id="slides">
+          <div class="slide">
+            <div class="slide-content">         
+                <img src="https://scontent.fhan5-5.fna.fbcdn.net/v/t1.15752-9/293115903_1305799403287088_8831288304850440447_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=LMk4OADFJOMAX9rxWeO&_nc_ht=scontent.fhan5-5.fna&oh=03_AVL5UqV0gAhekZ3c3U8AwZqWeSD-cHD9fz-yotg7HTmg0Q&oe=62F6ECF8" loading="lazy" />
+                         
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              
+                <img src="https://scontent.fhan5-8.fna.fbcdn.net/v/t1.15752-9/292740841_721951825550830_5954441518239999359_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=2W46jySHjMgAX_ImUb9&_nc_ht=scontent.fhan5-8.fna&oh=03_AVIDTpi1LDAoaro-UGZyuNDpoKMhL3gr4vlrzXO5e2eF7A&oe=62F678F1" loading="lazy" />
+                
+              
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              
+                <img src="https://scontent.fhan5-8.fna.fbcdn.net/v/t1.15752-9/290286264_456808385871732_6646144318110852805_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Evz2_6PNeI8AX8uqM1N&_nc_oc=AQnUKyH6pLgL0PqBKWG5l47cVfJz9MP6Q1tpXlQ908qRlZIZyhv8QaG2Fcxo8NZjfjI2YFWkHqWn0_gKHtexzpHu&_nc_ht=scontent.fhan5-8.fna&oh=03_AVK4AkteSy1uwJ-sGojgTZIs5ND1xrlRCbMFo6X39oo7Jw&oe=62F44A8A" loading="lazy" />
+                
+              
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              
+                <img src="https://scontent.fhan5-8.fna.fbcdn.net/v/t1.15752-9/290666594_726607571735310_5905158929332668675_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=jUN1f8BlR30AX_GcRJD&_nc_ht=scontent.fhan5-8.fna&oh=03_AVKT7NFPZArDayE-KBZWhdnafc-lJYO89Ieyw8kuNdLfTQ&oe=62F43668" loading="lazy" />
+                
+              
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              
+                <img src="https://scontent.fhan5-8.fna.fbcdn.net/v/t1.15752-9/292240631_440263194619379_8248014266430358504_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=5FX8FhyU75gAX93Evlp&tn=Gs_y-sNWLHK2pKtg&_nc_ht=scontent.fhan5-8.fna&oh=03_AVK8m4J8sCkqiGLlAbFOWh3xkIidCaD0eCbjudUJAtVC-w&oe=62F75DBF" loading="lazy" />
+                
+              
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              
+                <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/292029046_1490922318045607_8563730075109872659_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=7Gw24V0WezYAX939g8r&_nc_ht=scontent.fhan5-6.fna&oh=03_AVJ9YbjbKc5g2dXJPAsn8IP9ILNFNM3uuBeBZ9CVVy8B-w&oe=62F6AF5F" loading="lazy" />
+                
+              
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              
+                <img src="https://scontent.fhan5-8.fna.fbcdn.net/v/t1.15752-9/293393753_722542695676668_5507323990447373679_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=QC76KoZdfBgAX-BMzUF&_nc_ht=scontent.fhan5-8.fna&oh=03_AVJ7nH0BTel884IKWkT-1AbG1QEvVY6jqhj4292lfYRv_w&oe=62F6145A" loading="lazy" />
+                
+              
+            </div>
+          </div>
+          <!-- Mirror content -->
+          <div class="slide">
+            <div class="slide-content">
+              
+                <img src="https://scontent.fhan5-5.fna.fbcdn.net/v/t1.15752-9/293115903_1305799403287088_8831288304850440447_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=LMk4OADFJOMAX9rxWeO&_nc_ht=scontent.fhan5-5.fna&oh=03_AVL5UqV0gAhekZ3c3U8AwZqWeSD-cHD9fz-yotg7HTmg0Q&oe=62F6ECF8" loading="lazy" />
+                
+            
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              
+                <img src="https://scontent.fhan5-8.fna.fbcdn.net/v/t1.15752-9/292740841_721951825550830_5954441518239999359_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=2W46jySHjMgAX_ImUb9&_nc_ht=scontent.fhan5-8.fna&oh=03_AVIDTpi1LDAoaro-UGZyuNDpoKMhL3gr4vlrzXO5e2eF7A&oe=62F678F1" loading="lazy" />
+                
+           
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              
+                <img src="https://scontent.fhan5-8.fna.fbcdn.net/v/t1.15752-9/290286264_456808385871732_6646144318110852805_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Evz2_6PNeI8AX8uqM1N&_nc_oc=AQnUKyH6pLgL0PqBKWG5l47cVfJz9MP6Q1tpXlQ908qRlZIZyhv8QaG2Fcxo8NZjfjI2YFWkHqWn0_gKHtexzpHu&_nc_ht=scontent.fhan5-8.fna&oh=03_AVK4AkteSy1uwJ-sGojgTZIs5ND1xrlRCbMFo6X39oo7Jw&oe=62F44A8A" loading="lazy" />
+                
+              
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              
+                <img src="https://scontent.fhan5-8.fna.fbcdn.net/v/t1.15752-9/290666594_726607571735310_5905158929332668675_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=jUN1f8BlR30AX_GcRJD&_nc_ht=scontent.fhan5-8.fna&oh=03_AVKT7NFPZArDayE-KBZWhdnafc-lJYO89Ieyw8kuNdLfTQ&oe=62F43668" loading="lazy" />
+                
+             
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              
+                <img src="https://scontent.fhan5-8.fna.fbcdn.net/v/t1.15752-9/292240631_440263194619379_8248014266430358504_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=5FX8FhyU75gAX93Evlp&tn=Gs_y-sNWLHK2pKtg&_nc_ht=scontent.fhan5-8.fna&oh=03_AVK8m4J8sCkqiGLlAbFOWh3xkIidCaD0eCbjudUJAtVC-w&oe=62F75DBF" loading="lazy" />
+                
+              
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              
+                <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/292029046_1490922318045607_8563730075109872659_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=7Gw24V0WezYAX939g8r&_nc_ht=scontent.fhan5-6.fna&oh=03_AVJ9YbjbKc5g2dXJPAsn8IP9ILNFNM3uuBeBZ9CVVy8B-w&oe=62F6AF5F" loading="lazy" />
+                
+                
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide-content">
+                
+                <img src="https://scontent.fhan5-8.fna.fbcdn.net/v/t1.15752-9/293393753_722542695676668_5507323990447373679_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=QC76KoZdfBgAX-BMzUF&_nc_ht=scontent.fhan5-8.fna&oh=03_AVJ7nH0BTel884IKWkT-1AbG1QEvVY6jqhj4292lfYRv_w&oe=62F6145A" loading="lazy" />
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--phần nhạc-->
+      <div class="player">
+        <!-- Dashboard -->
+            <div class="dashboard">
+              <!-- Header -->
+              <header>
+                <h4>Now playing:</h4>
+                <h2>String 57th & 9th</h2>
+              </header>
+          
+              <!-- CD -->
+              <div class="cd">
+                <div class="cd-thumb">
+                </div>
+              </div>
+          
+              <!-- Control -->
+              <div class="control">
+                <div class="btn btn-repeat">
+                  <i class="fas fa-redo"></i>
+                </div>
+                <div class="btn btn-prev">
+                  <i class="fas fa-step-backward"></i>
+                </div>
+                <div class="btn btn-toggle-play">
+                  <i class="fas fa-pause icon-pause"></i>
+                  <i class="fas fa-play icon-play"></i>
+                </div>
+                <div class="btn btn-next">
+                  <i class="fas fa-step-forward"></i>
+                </div>
+                <div class="btn btn-random">
+                  <i class="fas fa-random"></i>
+                </div>
+              </div>
+          
+              <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+          
+              <audio id="audio" src=""></audio>
+            </div>
+            
+            <!-- Playlist -->
+            <div class="playlist">
+            </div>
+          </div>
+           <!-- hình ảnh chuyển động --> 
+           <div class="card">
+            <div class="sky"></div>
+            <div class="shine-1">
+              <div class="star-1"><div class="star"></div></div>
+              <div class="star-2"><div class="star"></div></div>
+              <div class="star-3"><div class="star"></div></div>
+              <div class="star-4"><div class="star"></div></div>
+              <div class="star-5"><div class="star"></div></div>
+              <div class="star-6"><div class="star"></div></div>
+              <div class="star-7"><div class="star"></div></div>
+            </div>
+            <div class="shine-2">
+              <div class="star-1"><div class="star"></div></div>
+              <div class="star-2"><div class="star"></div></div>
+              <div class="star-3"><div class="star"></div></div>
+              <div class="star-4"><div class="star"></div></div>
+              <div class="star-5"><div class="star"></div></div>
+              <div class="star-6"><div class="star"></div></div>
+              <div class="star-7"><div class="star"></div></div>
+            </div>
+            <div class="comet"></div>
+            <div class="moon">
+              <div class="shadow"></div>
+              <div class="cheese-1"></div>
+              <div class="cheese-2"></div>
+              <div class="cheese-3"></div>
+              <div class="cheese-4"></div>
+              <div class="cheese-5"></div>
+              <div class="cheese-6"></div>
+              <div class="cheese-7"></div>
+            </div>
+            <div class="ground">
+              <div class="hill-1"></div>
+              <div class="hill-2"></div>
+            </div>
+            <div class="clouds-1">
+              <div class="waft-1"></div>
+              <div class="waft-2"></div>
+              <div class="waft-3"></div>
+              <div class="waft-4"></div>
+              <div class="waft-5"></div>
+              <div class="waft-6"></div>
+              <div class="waft-7"></div>
+              <div class="waft-8"></div>
+              <div class="waft-9"></div>
+              <div class="waft-10"></div>
+              <div class="waft-11"></div>
+              <div class="waft-12"></div>
+              <div class="waft-13"></div>
+              <div class="waft-14"></div>
+              <div class="waft-15"></div>
+            </div>
+            <div class="clouds-2">
+              <div class="waft-1"></div>
+              <div class="waft-2"></div>
+              <div class="waft-3"></div>
+              <div class="waft-4"></div>
+              <div class="waft-5"></div>
+              <div class="waft-6"></div>
+              <div class="waft-7"></div>
+              <div class="waft-8"></div>
+              <div class="waft-9"></div>
+              <div class="waft-10"></div>
+              <div class="waft-11"></div>
+              <div class="waft-12"></div>
+              <div class="waft-13"></div>
+              <div class="waft-14"></div>
+              <div class="waft-15"></div>
+            </div>
+            <div class="tree">
+              <div class="stem"></div>
+              <div class="stem-2"></div>
+              <div class="branch-1"></div>
+              <div class="branch-2"></div>
+              <div class="branch-3"></div>
+              <div class="crown-left">
+                <div class="crown-left-up">
+                  <div class="heart-shape"><div class="heart-2"></div></div>
+                  <div class="heart-shape-2"><div class="heart-2"></div></div>
+                  <div class="heart-shape-3"><div class="heart"></div></div>
+                  <div class="heart-shape-4"><div class="heart"></div></div>
+                  <div class="heart-shape-5"><div class="heart"></div></div>
+                  <div class="heart-shape-6"><div class="heart-2"></div></div>
+                  <div class="heart-shape-7"><div class="heart"></div></div>
+                  <div class="heart-shape-8"><div class="heart"></div></div>
+                  <div class="heart-shape-9"><div class="heart"></div></div>
+                  <div class="heart-shape-10"><div class="heart-3"></div></div>
+                  <div class="heart-shape-11"><div class="heart-2"></div></div>
+                  <div class="heart-shape-12"><div class="heart"></div></div>
+                  <div class="heart-shape-13"><div class="heart"></div></div>
+                  <div class="heart-shape-14"><div class="heart-2"></div></div>
+                  <div class="heart-shape-15"><div class="heart"></div></div>
+                  <div class="heart-shape-16"><div class="heart-3"></div></div>
+                </div>
+                <div class="shadow-crown"></div>
+                <div class="crown-left-down">
+                  <div class="heart-shape"><div class="heart"></div></div>
+                  <div class="heart-shape-2"><div class="heart"></div></div>
+                  <div class="heart-shape-3"><div class="heart-2"></div></div>
+                  <div class="heart-shape-4"><div class="heart"></div></div>
+                  <div class="heart-shape-5"><div class="heart-2"></div></div>
+                  <div class="heart-shape-6"><div class="heart"></div></div>
+                  <div class="heart-shape-7"><div class="heart-2"></div></div>
+                  <div class="heart-shape-8"><div class="heart"></div></div>
+                  <div class="heart-shape-9"><div class="heart"></div></div>
+                  <div class="heart-shape-10"><div class="heart-2"></div></div>
+                  <div class="heart-shape-11"><div class="heart-3"></div></div>
+                  <div class="heart-shape-12"><div class="heart"></div></div>
+                  <div class="heart-shape-13"><div class="heart-2"></div></div>
+                  <div class="heart-shape-14"><div class="heart"></div></div>
+                  <div class="heart-shape-15"><div class="heart-3"></div></div>
+                  <div class="heart-shape-16"><div class="heart"></div></div>
+                </div>
+              </div>
+              <div class="crown-right">
+                <div class="crown-right-up">
+                  <div class="heart-shape"><div class="heart-2"></div></div>
+                  <div class="heart-shape-2"><div class="heart-2"></div></div>
+                  <div class="heart-shape-3"><div class="heart"></div></div>
+                  <div class="heart-shape-4"><div class="heart"></div></div>
+                  <div class="heart-shape-5"><div class="heart"></div></div>
+                  <div class="heart-shape-6"><div class="heart-2"></div></div>
+                  <div class="heart-shape-7"><div class="heart"></div></div>
+                  <div class="heart-shape-8"><div class="heart"></div></div>
+                  <div class="heart-shape-9"><div class="heart"></div></div>
+                  <div class="heart-shape-10"><div class="heart-3"></div></div>
+                  <div class="heart-shape-11"><div class="heart-2"></div></div>
+                  <div class="heart-shape-12"><div class="heart"></div></div>
+                  <div class="heart-shape-13"><div class="heart"></div></div>
+                  <div class="heart-shape-14"><div class="heart-2"></div></div>
+                  <div class="heart-shape-15"><div class="heart"></div></div>
+                  <div class="heart-shape-16"><div class="heart-3"></div></div>
+                </div>
+                <div class="shadow-crown-r"></div>
+                <div class="crown-right-down">
+                  <div class="wind heart-shape"><div class="heart"></div></div>
+                  <div class="heart-shape-2"><div class="heart"></div></div>
+                  <div class="heart-shape-3"><div class="heart-2"></div></div>
+                  <div class="heart-shape-4"><div class="heart"></div></div>
+                  <div class="heart-shape-5"><div class="heart-2"></div></div>
+                  <div class="heart-shape-6"><div class="heart"></div></div>
+                  <div class="heart-shape-7"><div class="heart-2"></div></div>
+                  <div class="heart-shape-8"><div class="heart"></div></div>
+                  <div class="heart-shape-9"><div class="heart"></div></div>
+                  <div class="heart-shape-10"><div class="heart-2"></div></div>
+                  <div class="heart-shape-11"><div class="heart-3"></div></div>
+                  <div class="heart-shape-12"><div class="heart"></div></div>
+                  <div class="heart-shape-13"><div class="heart-2"></div></div>
+                  <div class="heart-shape-14"><div class="heart"></div></div>
+                  <div class="heart-shape-15"><div class="heart-3"></div></div>
+                  <div class="heart-shape-16"><div class="heart"></div></div>
+                </div>
+              </div>
+            </div>
+          </div>             
+          
+          <!-- Design from: https://static.collectui.com/shots/3671744/musicloud-revolutionary-app-for-music-streaming-large -->
+          <!-- partial -->
+          <script  src="./script.js"></script>
+          <script>
+            //phần hình ảnh
+            let xOffset = 0;
+            let isMouseIn = false;
+            const slides = document.getElementById("slides");
+           
+
+setInterval(translate, 0);
+
+function translate() {
+  let offsetIncrementor = isMouseIn ? 0.05 : 0.2;
+  if (xOffset >= 258 * 7) xOffset = 0;
+  else xOffset = xOffset + offsetIncrementor;
+  slides.style.transform = "translateX(-" + xOffset + "px)";
+}
+
+slides.addEventListener("mouseover", function (event) {
+  isMouseIn = false;
+});
+
+
+</script>
+   
+  
+
+  
+        
+    </body>
+</html>
